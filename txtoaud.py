@@ -36,7 +36,7 @@ def text_to_audio(text):
         engine.setProperty('rate', 150) # WPM speed
         engine.setProperty('volume', 1.0)  
         voices = engine.getProperty('voices')
-        engine.setProperty('voice', voices[1].id)  # Used a female voice 
+        engine.setProperty('voice', voices[1].id)  # Used a female voice ; can be changed 
 
         
         audio_file = 'output.mp3'
